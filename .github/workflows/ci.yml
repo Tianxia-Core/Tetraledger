@@ -1,0 +1,33 @@
+# ffp: FFP-CI-TETRALEDGER content-pipeline yaml
+name: Tetraledger Tier-3 Organism Gate
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+
+
+
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+permissions:
+  contents: read
+
+jobs:
+  tetraledger-verify:
+    name: Merkle Settlement Syntax & SecretShield Gate
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Dhūmāvatī SecretShield & Zero-Scraper Check
+        run: |
+          python3 security/secret_shield.py
+          ! grep -rnE "(mailto:|@rasaxmachina\.com|\+372|sk_live_|ghp_[A-Za-z0-9]{20})" src/ nix/ README.md SECURITY.md
+      - name: Verify Python Modules
+        run: |
+          python3 -m py_compile src/*.py security/secret_shield.py

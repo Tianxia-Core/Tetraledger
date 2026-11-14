@@ -1,0 +1,21 @@
+# ffp: FFP-GITIGNORE declarative gitignore
+target/
+result
+result-*
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.pem
+!RELEASE_SIGNING_KEY.pub.pem
+!keys/RELEASE_SIGNING_KEY.pub.pem
+*secret*
+!security/secret_shield.py
+*token*
+!**/02-design-tokens/
+!**/02-design-tokens/**
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.mp4
+*.log
