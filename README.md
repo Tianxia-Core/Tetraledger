@@ -10,16 +10,38 @@
 [![DSS-14.2 Gate](https://img.shields.io/badge/DSS--14.2-%E2%89%A48_FFPs_Verified-34d399)](#function-feature-pair-ffp-manifest)
 
 > **RASA-X-MACHINA Sovereign Polyglot Systems · Makers of `tianxiaOS`**
-> *Entity Candor: **RASA-X-MACHINA** — Dealum Application `#179423` under active Estonian Startup Committee evaluation (§ 100¹ of the Estonian Aliens Act · Proposed entity upon approval: **RASA-X-MACHINA OÜ**, Tallinn, Estonia)*
+> *Entity Candor: **RASA-X-MACHINA** — Dealum Application `#179423` under active Estonian Startup Committee evaluation (Estonian Aliens Act `VMS § 62⁴(2) & § 192` · Proposed entity upon approval: **RASA-X-MACHINA OÜ**, Tallinn, Estonia)*
 > **Live Surface:** [ledger.rasaxmachina.com](https://ledger.rasaxmachina.com) · **Press & Brand Kit:** [rasaxmachina.com/press](https://rasaxmachina.com/press) · **Founder:** [rasaxmachina.com/collins](https://rasaxmachina.com/collins) · **Secure WhatsApp Relay:** [rasaxmachina.com/whatsapp](https://rasaxmachina.com/whatsapp)
 
 **Tetraledger** (*Veritas-Rex 4-Way Cryptographic Settlement Engine*) is the **Tier-3 4-Way Cryptographic Settlement & HTTP `402` (`x402`) Micropayment Organism** (`5` FFPs `<= 8` FFPs) of **RASA-X-MACHINA**. Born directly from 10+ years of frontline FinTech multi-chain & fiat ledger reconciliation experience, it enforces **`€0.00` balance discrepancy** across (1) Fiat Merchant Rails (*Stripe*, *Gumroad*), (2) On-Chain Settlement (*Base L2*, *Solana*), (3) Append-Only SQLite WAL Core Ledgers, and (4) Read-Only Open Banking Feeds (*GoCardless*), anchoring every settlement epoch with a verifiable SHA-256 Merkle solvency root.
 
+<!-- BUILD_LAW_SHOWCASE_START -->
+
 ---
 
+## 🌍 In Plain English — What `Tetraledger` Is & Why It Matters (Layman's Guide)
+
+- **The Everyday Problem:** Modern digital businesses get paid across Stripe, bank transfers (`SEPA`), and Web3 rails—yet spreadsheets and dashboard totals rarely match to the cent due to fees, FX timing, and webhook retries.
+- **How It Works (Without the Jargon):** `Tetraledger` continuously reconciles **four independent sources of truth** (card processors, Base L2/Solana contracts, internal SQLite WAL books, and bank feeds) into one SHA-256 Merkle-anchored double-entry ledger with **`0.00%` phantom balance drift**.
+- **Why It Is Different:** Designed by a 10-year veteran of multi-chain ledger forensics under **[Build Law](https://github.com/Tianxia-Core/Build-Law)**, pairing financial proof with HTTP `x402` machine micropayments and `< 50 ms` `GDPR++` erasure.
+- **How It Benefits You:** CFOs, founders, and autonomous AI services get real-time, audit-grade financial clarity across fiat and programmable payment rails.
+- **How to Install & Use It in 60 Seconds:** Inspect live 4-way attestation at **[ledger.rasaxmachina.com](https://ledger.rasaxmachina.com)** or run the reproducible local verifier.
+
+---
+
+## 🏛️ Governed by [`Build Law`](https://github.com/Tianxia-Core/Build-Law) — Engineering Philosophy & Stakeholder Pathways
+
+This repository is a live production showcase of **[`Build Law`](https://github.com/Tianxia-Core/Build-Law)**—the open-source (`MIT`) **4-Pillar, 14-Gate Constitutional Engineering & `5.0×–8.8×` Token-Efficiency Standard** created by **[Collins Takem](https://rasaxmachina.com/collins)** (**RASA-X-MACHINA**):
+- **Developers & AI Builders:** Drop **[`Build Law`](https://github.com/Tianxia-Core/Build-Law)** into Claude Code, Cursor, OpenCode, VS Code (`.vsix`), GitHub Copilot, Windsurf, Cline, Aider, or any chat LLM in 60 seconds.
+- **CTOs & B2B Engineering Leaders:** Need similar `Rust`/`Go`/`Nix`/Security/FinOps rigor applied to your infrastructure? Scope a fixed-price **72-Hour `VRTTI` Architecture Sprint** at **[vrtti.rasaxmachina.com](https://vrtti.rasaxmachina.com)**.
+- **Investors, Researchers, Press & Executive Hiring Committees:** Inspect our cryptographic release proofs across **[`@Tianxia-Core`](https://github.com/Tianxia-Core)**, press assets at **[rasaxmachina.com/press](https://rasaxmachina.com/press)**, and founder dossier at **[rasaxmachina.com/collins](https://rasaxmachina.com/collins)**.
+
+<!-- BUILD_LAW_SHOWCASE_END -->
+
+---
 ## Frontline-to-Founder Engineering Lineage
 
-Architected by **Collins Takem** — forged from **10+ years on the FinTech incident-triage and ledger-forensics front lines** (*Blockchain.com*, *CoinLedger*, *SQUIRE*) while completing a Dual Major in **Pure Mathematics & Computer Science at SUNY (`4.00 / 4.00` GPA)**, followed by **3+ years** building **`tianxiaOS`** and its self-hosted autonomous compiler harnesses.
+Architected by **Collins Takem** — forged from **10+ years on the FinTech incident-triage and ledger-forensics front lines** (*Blockchain.com*, *CoinLedger*, *SQUIRE*) while completing a Dual Major in **Pure Mathematics & Computer Science at SUNY (`4.00 / 4.00` GPA)**, culminating in **`tianxiaOS`** (sovereign operating substrate, genesis `16 April 2026`) and its self-hosted autonomous compiler harnesses.
 
 ---
 
